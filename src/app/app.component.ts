@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   @Output() navLinks: ElementRef[];
   pageScrollEvent = new EventEmitter<any>();
 
-  title = 'personal-site';
+  title = 'Dylan J Snyder';
   currentActiveLink = '';
   showNav = false;
 
