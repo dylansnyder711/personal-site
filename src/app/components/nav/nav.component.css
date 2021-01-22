@@ -1,0 +1,33 @@
+nav {
+  width: 150px;
+  margin: 20px;
+  padding: 0;
+}
+
+.navbar .navbar-nav {
+  float: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.nav-btn {
+  color: white;
+  border-color: transparent;
+  width: 100%;
+  height: 80px;
+  padding-top: 22px;
+  border-radius: 0;
+  background-color: rgb(0, 48, 66);
+}
+
+.nav-btn:hover {
+  background-color: rgb(0, 79, 107);
+  border-color: transparent;
+  color: rgb(223, 223, 223);
+}
+
+.active-link {
+  background-color: rgba(1, 102, 139);
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+}

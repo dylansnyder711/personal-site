@@ -1,0 +1,30 @@
+<nav
+  class="navbar fixed-top navbar-expand-lg navbar-light navbar-transparent sticky"
+  *ngIf="isVisible"
+  @fade
+>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto inline-block">
+      <li class="nav-item" *ngFor="let navLink of navLinks">
+        <a
+          class="btn btn-outline-light btn-lg nav-btn text-capitalize"
+          [class.active-link]="activeLink === navLink.nativeElement.id"
+          href="#{{ navLink.nativeElement.id }}"
+        >
+          {{ navLink.nativeElement.id }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

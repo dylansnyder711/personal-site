@@ -1,0 +1,30 @@
+#contact-div {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  color: rgb(0, 48, 66);
+  min-height: 50vh;
+  background: rgb(192, 192, 192);
+  box-shadow: 0 -5px 20px rgb(77, 77, 77);
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  width: 50%;
+}
+
+.contact-color {
+  color: rgb(0, 48, 66);
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+.link:hover {
+  color: rgb(0, 80, 109);
+}
+
+.link-text {
+  font-size: 20px;
+}

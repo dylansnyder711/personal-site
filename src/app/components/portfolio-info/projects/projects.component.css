@@ -1,0 +1,13 @@
+.jumbotron {
+  background: rgb(0, 86, 117);
+  color: white;
+  min-height: 60vh;
+}
+
+hr {
+  border-color: white;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,48 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center">Portfolio</h1>
+    <hr />
+    <h3 class="pt-4 pb-4">Education</h3>
+    <app-portfolio-entry
+      [fullEntry]="entry"
+      *ngFor="let entry of educationEntries"
+    ></app-portfolio-entry>
+    <hr />
+    <h3 class="pt-4 pb-4">Certifications</h3>
+    <app-portfolio-entry
+      [fullEntry]="entry"
+      *ngFor="let entry of certEntries"
+    ></app-portfolio-entry>
+    <hr />
+    <h3 class="pt-4 pb-4">Experience</h3>
+    <app-portfolio-entry
+      [fullEntry]="entry"
+      *ngFor="let entry of experienceEntries"
+    ></app-portfolio-entry>
+    <hr />
+    <h3 class="pt-4 pb-4">Skills/Resume</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <ul class="list-group d-flex flex-row flex-wrap">
+            <li class="list-group-item col-lg-6" *ngFor="let skill of skills">
+              {{ skill.skill }}
+              <span class="float-right">[{{ skill.experience }} years]</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 text-right d-flex flex-column-reverse">
+          <a href="./assets/pdfs/certifications.pdf" target="_blank" class="btn"
+            >Certifications <fa-icon [icon]="faArrowRight"></fa-icon
+          ></a>
+          <a
+            href="./assets/pdfs/DylanSnyderResume.pdf"
+            target="_blank"
+            class="btn"
+            >Resume <fa-icon [icon]="faArrowRight"></fa-icon
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

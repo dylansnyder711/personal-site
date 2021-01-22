@@ -1,0 +1,29 @@
+.jumbotron {
+  margin: 15% auto;
+  background-color: transparent;
+  color: rgb(0, 48, 66);
+}
+.lead a {
+  margin: 1rem;
+}
+
+.nav-btn {
+  color: rgb(0, 48, 66);
+  border-color: rgb(0, 48, 66);
+  min-width: 100px;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 48, 66, 0.7);
+  border-color: transparent;
+  color: white;
+}
+
+hr {
+  width: 300px;
+  border-width: 2px;
+}
+
+strong {
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,38 @@
+.jumbotron {
+  margin: 0;
+  text-align: left;
+  padding: 50px 30px;
+  border-radius: 0;
+  box-shadow: 0 3px 10px rgb(95, 95, 95);
+}
+
+.row {
+  margin: 40px 0;
+}
+
+h1,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 48, 66);
+}
+
+strong {
+  font-size: 1.2rem;
+}
+
+.btn {
+  color: rgb(0, 86, 117);
+}
+
+.list-group-item {
+  background: rgb(211, 211, 211);
+}
+
+.list-group-item:hover {
+  background: rgb(192, 192, 192);
+}
+
+.list-group {
+  border-radius: 0;
+  border-width: 0;
+}

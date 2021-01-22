@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1 class="display-3">
+    <strong
+      ><p @moveRight>Dylan</p>
+      <p @moveLeft>Snyder</p></strong
+    >
+  </h1>
+  <hr class="my-4" />
+  <p class="lead" @moveUp>
+    <a
+      href="#{{ navLink.nativeElement.id }}"
+      class="btn btn-outline-light btn-lg nav-btn text-capitalize"
+      *ngFor="let navLink of navLinks"
+      >{{ navLink.nativeElement.id }}</a
+    >
+  </p>
+</div>

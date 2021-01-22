@@ -1,0 +1,19 @@
+.jumbotron {
+  background: rgb(192, 192, 192);
+}
+
+h1,
+h4,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 48, 66);
+}
+
+.profile-picture {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+img {
+  border: solid 8px rgb(165, 165, 165);
+}
